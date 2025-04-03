@@ -56,12 +56,19 @@ console.log(h3Tags);
    document.body.append(newH1El);
    document.body.append(newDiv);
 
+//Appending elements to other elements exercise
    const div = document.createElement("container");
-//the p element will be appended inside of the div
+  //the p element will be appended inside of the div
    const p = document.createElement("p");
    p.innerText = "I am the text of the p tag!"
    div.append(p);
 
    document.body.append(div);
    div.innerText = "Hello div"; //overrides previous innerText in element
+
+//Removing elements exercise
+    div.remove();
+    console.log("Element Removed!");
+    document.body.append(div);
+    console.log("Element appended to body!");
 })

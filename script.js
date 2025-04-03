@@ -62,6 +62,6 @@ console.log(h3Tags);
    p.innerText = "I am the text of the p tag!"
    div.append(p);
 
-   document.body.append(div);
-   div.innterText = "Hello World";
+//    document.body.append(div);
+   // div.innerText = "Hello World"; overrides previous innerText in element
 })

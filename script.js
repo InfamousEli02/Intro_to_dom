@@ -30,8 +30,8 @@ console.log(h3Tags);
     h2Tag.innerHTML = "<span>Hello Span</span>"
 
     const phrase = document.querySelector("p#phrase");
-    phrase.innerHTML = "Plus Ultra!";
-    console.log(phrase.innerHTML);
+    phrase.innerText = "Plus Ultra!";
+    console.log(phrase.innerText);
     
 //modify CSS properties
 //fontSize(css) == fontSize(js)

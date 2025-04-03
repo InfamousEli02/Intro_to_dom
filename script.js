@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(foundPtag);
 
 //querySelectorAll exercise
-    const h2Tags = document.querySelectorAll("h2.subtitle");
+const h3Tags = document.querySelectorAll("h3");
 
-    console.log(h2Tags);
+console.log(h3Tags);
 
 //innerText
     const h2Tag = document.getElementById("another");

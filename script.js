@@ -35,9 +35,9 @@ console.log(h3Tags);
     
 //modify CSS properties
 //fontSize(css) == fontSize(js)
-    h2Tag.style.backgroundColor = "green";
-    h2Tag.style.fontSize = "40px";
-    console.log(h2Tag.style)
+    phrase.style.backgroundColor = "green";
+    phrase.style.fontSize = "40px";
+    console.log(phrase.style)
 
     const image = document.getElementById("image");
 

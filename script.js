@@ -44,12 +44,17 @@ console.log(h3Tags);
     image.src = 'https://www.looper.com/img/gallery/what-does-deku-mean-the-name-of-my-hero-academias-main-character-explained/intro-1728921238.jpg';
 
 //newElement()
-   const newH1El = document.createElement("container");
+   const newH1El = document.createElement("h1");
    newH1El.innerText = "Hello new hero";
 
    console.log(newH1El);
 
+   const newDiv = document.createElement("container");
+   newDiv.setAttribute("div", "container");
+   console.log(newDiv);
+
    document.body.append(newH1El);
+   document.body.append(newDiv);
 
    const div = document.createElement("div");
 //the p element will be appended inside of the div

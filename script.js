@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const pTag = document.querySelector("p");
     const pTag2 = document.querySelector("p#paragraph2");
     const pTag3 = document.querySelector("p#paragraph3");
-    const foundPtag = document.querySelector("possiblePtag");
+    const foundPtag = document.querySelector(possiblePtag);
 
     console.log(pTag);
     console.log(pTag2);
